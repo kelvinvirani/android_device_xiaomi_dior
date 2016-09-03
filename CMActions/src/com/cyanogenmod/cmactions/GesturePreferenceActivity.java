@@ -17,8 +17,7 @@
 package com.cyanogenmod.cmactions;
 
 import android.os.Bundle;
-
-import com.android.settingslib.drawer.SettingsDrawerActivity;
+import android.preference.PreferenceActivity;
 
 public class GesturePreferenceActivity extends SettingsDrawerActivity {
 
@@ -30,4 +29,3 @@ public class GesturePreferenceActivity extends SettingsDrawerActivity {
     }
 
 }
-
