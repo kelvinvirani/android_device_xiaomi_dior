@@ -17,7 +17,8 @@
 package com.cyanogenmod.cmactions;
 
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
+
+import com.android.settingslib.drawer.SettingsDrawerActivity;
 
 public class GesturePreferenceActivity extends SettingsDrawerActivity {
 
