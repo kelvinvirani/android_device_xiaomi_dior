@@ -1,6 +1,10 @@
 /*
+ *
+ *  Copyright (c) 2013, The Linux Foundation. All rights reserved.
+ *  Not a Contribution, Apache license notifications and license are retained
+ *  for attribution purposes only.
+ *
  * Copyright (C) 2012 The Android Open Source Project
- * Copyright (C) 2016 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,14 +22,14 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#include <cutils/properties.h>
-#include <string.h>
+#define BLUETOOTH_QTI_SW TRUE
 
 #define BTM_DEF_LOCAL_NAME   "HM NOTE 1LTE"
-
-#define BLUETOOTH_QTI_SW TRUE
-#define MAX_ACL_CONNECTIONS   7
+// Enables Interleave scan
+#define BTA_SKIP_BLE_READ_REMOTE_FEAT TRUE
+#define BTA_HOST_INTERLEAVE_SEARCH  TRUE
 #define MAX_L2CAP_CHANNELS    16
-#define BLE_VND_INCLUDED   TRUE
-#define BT_CLEAN_TURN_ON_DISABLED TRUE
+// skips conn update at conn completion
+#define BTA_BLE_SKIP_CONN_UPD  TRUE
+#define BT_CLEAN_TURN_ON_DISABLED 1
 #endif
