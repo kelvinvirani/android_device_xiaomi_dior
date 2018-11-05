@@ -22,6 +22,13 @@ ro.bluetooth.sap=true
 ro.bluetooth.hfp.ver=1.6
 ro.qualcomm.bt.hci_transport=smd
 
+# Camera
+persist.camera.cpp.duplication=false
+camera2.portability.force_api=1
+persist.media.treble_omx=false
+camera.disable_treble=true
+debug.hwui.use_buffer_age=false
+
 # Display
 ro.opengles.version=196608
 ro.sf.lcd_density=320
@@ -56,7 +63,6 @@ persist.service.adb.enable=1
 persist.service.debuggable=1
 persist.sys.usb.config=adb
 
-camera.disable_treble=true
 ro.bionic.ld.warning=0
 
 # Maintainer
