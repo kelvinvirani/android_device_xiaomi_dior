@@ -47,6 +47,9 @@ rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
 ril.subscription.types=RUIM
 persist.data.netmgrd.qos.enable=true
+persist.data.tcpackprio.enable=true
+ro.data.large_tcp_window_size=true
+persist.cne.feature=0
 persist.data.qmi.adb_logmask=0
 persist.radio.apm_sim_not_pwdn=1
 persist.radio.dont_use_dsd=true
@@ -55,6 +58,9 @@ persist.radio.multisim.config=dsds
 persist.radio.rat_on=combine
 ro.telephony.call_ring.multiple=false
 ro.telephony.ril.config=simactivation
+
+wifi.interface=wlan0
+ro.use_data_netmgrd=true
 
 # ADB
 ro.secure=0
