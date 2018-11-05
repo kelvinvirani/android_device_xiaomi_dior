@@ -214,3 +214,6 @@ TARGET_PROVIDES_WCNSS_QMI := true
 
 # inherit from the proprietary version
 -include vendor/xiaomi/dior/BoardConfigVendor.mk
+
+# Security patch level
+VENDOR_SECURITY_PATCH := 2016-10-01
