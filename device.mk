@@ -80,8 +80,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     bdaddr_xiaomi \
     libbt-vendor \
-    android.hardware.bluetooth@1.0-impl \
-    android.hardware.bluetooth@1.0-service
+    android.hardware.bluetooth@1.0-impl
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/init.dior.bt.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.dior.bt.sh
