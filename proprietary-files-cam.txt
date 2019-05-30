@@ -1,10 +1,6 @@
 # Camera - from MIUI V9.2.4.0
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
-lib/hw/camera.msm8226.so:vendor/lib/hw/camera.vendor.msm8226.so|6ac9bd33114fc9f2d3a00eb60ee37ebece82c5b2
-lib/libmmcamera_interface.so:vendor/lib/libmmcamera_interface.so
-lib/libmmjpeg_interface.so:vendor/lib/libmmjpeg_interface.so
 vendor/lib/libAKM8963.so
-vendor/lib/libarcsoft_beauty_shot.so
 vendor/lib/libFaceProc.so
 vendor/lib/libjpegdhw.so|1fab2be56a0c217fa8689f28b0687ef1188eac37
 vendor/lib/libjpegehw.so|86ab57b4f3794af1ef51d49cf79137322d806b75
@@ -15,7 +11,6 @@ vendor/lib/libmmqjpeg_codec.so|8f245bb87b7f7986c5f34dc31f4b48ca9edc5348
 vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegdec.so|dd3f588640ebccecb5682f4a5b0e202fa4a68329
 vendor/lib/libqomx_jpegenc.so|abd2f4ae6e964c27c73e2214bea66ab4f781ba91
-vendor/lib/libqomx_core.so|851d71830c98226b7beca3876d9d96bbdbcb7bd1
 vendor/lib/libstlport.so|e61ef21decc21472e06eacc841e7d61bf68ca9f3
 
 vendor/lib/libmmcamera2_c2d_module.so

@@ -87,9 +87,8 @@ PRODUCT_PACKAGES += \
     camera.device@1.0-impl-legacy \
     libxml2 \
     camera.msm8226 \
-    Snap \
-    libshim_camera \
-    libshim_dso_handle
+    libmm-qcamera
+    Snap
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/external_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/external_camera_config.xml
